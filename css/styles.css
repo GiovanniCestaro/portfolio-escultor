@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  /* background-color: blue; */
+}
+
+body {
+  width: 100%;
+  background-color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* cabeçalho inicio*/
+
+.cabecalho {
+  /* background-color: blue; */
+  position: relative;
+  max-width: 1170px;
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.cabecalho .logo img {
+  width: 70px;
+  transition: 0.3s ease-in-out;
+}
+
+.cabecalho .logo-nome {
+  position: absolute;
+  margin-left: 100px;
+  font-size: 30px;
+}
+
+.cabecalho .navegacao {
+  list-style: none;
+  display: flex;
+  transition: 0.3s ease-in-out;
+}
+
+.cabecalho .navegacao .item a {
+  margin: 0 25px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: 300ms ease-in-out;
+}
+
+.cabecalho .navegacao .item a:hover {
+  color: transparent;
+  background-image: url(../imagens/TEXTURA\ OURO.png);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-size: contain;
+}
+
+.icones {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icones .redes-sociais .lista-icones {
+  width: 60px;
+  height: 300px;
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icones .redes-sociais .lista-icones .icone {
+  font-size: 30px;
+  list-style: none;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+.icones .redes-sociais .lista-icones .icone:hover {
+  font-size: 50px;
+}
+
+.textura-ouro {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1170px;
+  height: 10px;
+}
+
+.textura-ouro .textura-ouro-imagem {
+  object-fit: cover;
+  height: 10px;
+  width: 100%;
+}
+
+.conteudo-principal {
+  position: relative;
+  max-width: 1170px;
+  margin: auto;
+  justify-content: center;
+}
+
+.conteudo-principal .projetos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.conteudo-principal .projetos .painel {
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.conteudo-principal .projetos .painel .imagem {
+  display: flex;
+  flex-direction: row;
+  max-width: 25%;
+}
+
+.conteudo-principal .projetos .seta-esquerda {
+  width: 30px;
+  margin: 15px;
+  transform: rotate(180deg);
+  transition: 300ms ease-in-out;
+}
+
+.conteudo-principal .projetos .seta-direita {
+  width: 30px;
+  margin: 15px;
+  transition: 300ms ease-in-out;
+}
+
+.conteudo-principal .projetos .seta-esquerda:hover {
+  width: 40px;
+}
+
+.conteudo-principal .projetos .seta-direita:hover {
+  width: 40px;
+}
+
+.quem-sou {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+
+.quem-sou .titulo {
+  margin: 25px;
+}
+
+.quem-sou .paragrafo {
+  margin-bottom: 25px;
+}
+
+.aulas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+
+.aulas .titulo {
+  margin: 25px;
+}
+
+.aulas .paragrafo {
+  margin-bottom: 25px;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+
+.contato .titulo {
+  margin: 25px;
+}
+
+.contato .informacoes {
+  list-style: none;
+}
