@@ -175,18 +175,18 @@ img {
   margin-bottom: 25px;
 }
 
-.aulas {
+.workshops {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: justify;
 }
 
-.aulas .titulo {
+.workshops .titulo {
   margin: 25px;
 }
 
-.aulas .paragrafo {
+.workshops .paragrafo {
   margin-bottom: 25px;
 }
 
@@ -203,4 +203,9 @@ img {
 
 .contato .informacoes {
   list-style: none;
+}
+
+.contato .direitos {
+  font-size: 15px;
+  margin-bottom: 25px;
 }
